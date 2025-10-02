@@ -82,7 +82,7 @@ print(y_pred_classes)
 
 # Single Example
 
-# random_idx = np.random.choice(len(x_test))
+# random_idx = nppy.random.choice(len(x_test))
 random_idx = 6000
 x_sample = x_test[random_idx]
 y_true =  np.argmax(y_test, axis=1)

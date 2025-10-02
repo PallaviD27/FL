@@ -23,7 +23,6 @@ import seaborn as sns
 from tensorflow.keras.preprocessing import image
 
 # Load data and split it into training and test data
-
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 # Normalise images: Scale pixel value [0,255] to [0,1]
